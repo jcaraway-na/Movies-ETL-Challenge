@@ -46,3 +46,34 @@
   </tr>
 </table>
 
+---
+
+### Deliverable 2: Extract and Transform the Wikipedia Data
+
+<table>
+  <tr>
+    <td>Complete</td>
+    <td>Task</td>
+    <td>Example</td>
+  </tr>
+  <tr>
+    <td> :white_check_mark: </td>
+    <td> 1.) The TV shows are filtered out, and the wiki_movies_df DataFrame is created.</td>
+    <td><img src="https://github.com/jcaraway-na/Movies-ETL-Challenge/blob/main/resources/filter_out_tv_shows.png" width=100% height=100%></td>
+  </tr>
+  <tr>
+    <td> :white_check_mark: </td>
+    <td> 2.) A try-except block is used to catch errors while extracting the IMDb IDs with a regular expression and dropping duplicate IDs. </td>
+    <td><img src="https://github.com/jcaraway-na/Movies-ETL-Challenge/blob/main/resources/IMDb_try_except.png" width=100% height=100%></td>
+  </tr>
+  <tr>
+    <td> :white_check_mark: </td>
+    <td> 3.) The extraction and transformation of the Wikipedia data in the ETL function does the following:</td>
+    <td><img src="" width=100% height=100%></td>
+  </tr>
+  <tr>
+    <td> :white_check_mark: </td>
+    <td> 4.) The function converts the MovieLens ratings data file to a Pandas DataFrame, and the DataFrame is displayed in the ETL_function_test.ipynb file. </td>
+    <td><img src="" width=100% height=100%></td>
+  </tr>
+</table>
