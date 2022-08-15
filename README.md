@@ -89,3 +89,57 @@
     </td>
   </tr>
 </table>
+
+### Deliverable 3: Extract and Transform the Kaggle data
+
+<table>
+  <tr>
+    <td>Complete</td>
+    <td>Task</td>
+    <td>Example</td>
+  </tr>
+  <tr>
+    <td> :white_check_mark: </td>
+    <td> 
+      <p><h4>1.) The extraction and transformation of the Kaggle metadata using the ETL function does the following:</h4></p>
+      <p><li>The Kaggle metadata is cleaned.</li></p>
+      <p><li>The Wikipedia and Kaggle DataFrames are merged.</li></p>
+      <p><h4>2.) The following is performed on the merged Wikipedia and Kaggle DataFrames to create the movies_df:</h4></p>
+      <p><li>Unnecessary columns are dropped.</li></p>
+      <p><li>A function is used to fill in the missing Kaggle data.</li></p>
+      <p><li>The movies_df DataFrame is filtered to keep specific columns.</li></p>
+      <p><li>The movies_df DataFrame columns are renamed.</li></p>
+      <p><li>The Kaggle metadata is cleaned.</li></p>
+      <p><li>The Kaggle metadata is cleaned.</li></p>
+    </td>
+    <td>
+      <img src="https://github.com/jcaraway-na/Movies-ETL-Challenge/blob/main/resources/clean_kaggle.png" width=100% height=100%>
+      <img src="https://github.com/jcaraway-na/Movies-ETL-Challenge/blob/main/resources/merge_kaggle.png" width=100% height=100%>
+      <img src="https://github.com/jcaraway-na/Movies-ETL-Challenge/blob/main/resources/rename_kaggle_columns.png" width=100% height=100%>
+      <img src="https://github.com/jcaraway-na/Movies-ETL-Challenge/blob/main/resources/clean_kaggle_meta.png" width=100% height=100%>
+    </td>
+  </tr>
+</table>
+
+### Deliverable 4: Create the Movie Database
+
+<table>
+  <tr>
+    <td>Complete</td>
+    <td>Task</td>
+    <td>Example</td>
+  </tr>
+  <tr>
+    <td> :white_check_mark: </td>
+    <td> 
+      <p><h4>1.) You will earn a perfect score for Deliverable 4 by completing all requirements below:</h4></p>
+      <p><li>The data from the movies_df DataFrame replaces the current data in the movies table in the SQL database, as determined by the movies_query.png.</li></p>
+      <p><li>The data from the MovieLens rating CSV file is added to the ratings table in the SQL database, as determined by the ratings_query.png.</li></p>
+      <p><li>The elapsed time to add the data to the database is displayed in the ETL_create_database.ipynb file.</li></p>
+    </td>
+    <td>
+      <img src="https://github.com/jcaraway-na/Movies-ETL-Challenge/blob/main/resources/movies_query.png" width=100% height=100%>
+      <img src="https://github.com/jcaraway-na/Movies-ETL-Challenge/blob/main/resources/ratings_query.png" width=100% height=100%>
+    </td>
+  </tr>
+</table>
