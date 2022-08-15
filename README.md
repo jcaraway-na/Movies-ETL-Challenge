@@ -22,28 +22,27 @@
   <tr>
     <td>Complete</td>
     <td>Task</td>
+    <td>Example</td>
   </tr>
   <tr>
     <td> :white_check_mark: </td>
     <td> 1.) The ETL function is written to read in the three data files.</td>
-    <td><img src="" width=100% height=100%></td>
+    <td><img src="https://github.com/jcaraway-na/Movies-ETL-Challenge/blob/main/resources/read_in_three_data_files.png" width=100% height=100%></td>
   </tr>
   <tr>
     <td> :white_check_mark: </td>
     <td> 2.) The function converts the Wikipedia JSON file to a Pandas DataFrame, and the DataFrame is displayed in the ETL_function_test.ipynb file. </td>
+    <td><img src="https://github.com/jcaraway-na/Movies-ETL-Challenge/blob/main/resources/wiki_movies_df.png" width=100% height=100%></td>
   </tr>
   <tr>
     <td> :white_check_mark: </td>
     <td> 3.) The function converts the Kaggle metadata file to a Pandas DataFrame, and the DataFrame is displayed in the ETL_function_test.ipynb file. </td>
+    <td><img src="https://github.com/jcaraway-na/Movies-ETL-Challenge/blob/main/resources/kaggle_metadata_df.png" width=100% height=100%></td>
   </tr>
   <tr>
     <td> :white_check_mark: </td>
     <td> 4.) The function converts the MovieLens ratings data file to a Pandas DataFrame, and the DataFrame is displayed in the ETL_function_test.ipynb file. </td>
+    <td><img src="https://github.com/jcaraway-na/Movies-ETL-Challenge/blob/main/resources/ratings_df.png" width=100% height=100%></td>
   </tr>
 </table>
 
-<table>
-<tr>
-<td></td>
-</tr>
-</table>
