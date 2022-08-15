@@ -68,12 +68,24 @@
   </tr>
   <tr>
     <td> :white_check_mark: </td>
-    <td> 3.) The extraction and transformation of the Wikipedia data in the ETL function does the following:</td>
-    <td><img src="" width=100% height=100%></td>
-  </tr>
-  <tr>
-    <td> :white_check_mark: </td>
-    <td> 4.) The function converts the MovieLens ratings data file to a Pandas DataFrame, and the DataFrame is displayed in the ETL_function_test.ipynb file. </td>
-    <td><img src="" width=100% height=100%></td>
+    <td> 3.) The extraction and transformation of the Wikipedia data in the ETL function does the following:
+        <p> A list comprehension is used to keep columns with non-null values.</p>
+        <p> The non-null box office data is converted to string values using the lambda and join functions.</p>
+        <p> A regular expression is used to match the six elements of "form_one" of the box office data.</p>
+        <p> A regular expression is used to match the three elements of "form_two" of the box office data.</p>
+        <p> The following columns are cleaned in the Wikipedia DataFrame:</p>
+        <li> - The box office column</li>
+        <li> - The budget column</li>
+        <li> - The release date column</li>
+        <li> - The running time column</li>
+      <p> </p>
+      <p> The cleaned Wikipedia data is converted to a Pandas DataFrame, and the DataFrame is displayed in the ETL_clean_wiki_movies.ipynb file.</p>
+    </td>
+    <td>
+      <img src="https://github.com/jcaraway-na/Movies-ETL-Challenge/blob/main/resources/list_comprehension_non-null_values.png" width=100% height=100%>
+      <img src="https://github.com/jcaraway-na/Movies-ETL-Challenge/blob/main/resources/six_from-one_three_from-one.png" width=100% height=100%>
+      <img src="https://github.com/jcaraway-na/Movies-ETL-Challenge/blob/main/resources/clean_columns.png" width=100% height=100%>
+      <img src="https://github.com/jcaraway-na/Movies-ETL-Challenge/blob/main/resources/clean_wiki.png" width=100% height=100%>
+    </td>
   </tr>
 </table>
